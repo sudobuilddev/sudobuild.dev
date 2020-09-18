@@ -1,8 +1,8 @@
 const config = {
-  siteTitle: "Sudo Build Development", // Site title.
+  siteTitle: "Sudo Build Dev", // Site title.
   siteTitleShort: "Sudo Build Dev", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Sudo Build Dev", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteLogo: "/logos/sudobuilddev.png", // Logo used for SEO and manifest.
   siteUrl: "https://sudobuild.dev", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Otra comunidad geek.", // Website description used for RSS feeds/meta description tag.
@@ -13,7 +13,7 @@ const config = {
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  postsPerPage: 4, // Amount of posts displayed per listing page.
+  postsPerPage: 0, // Amount of posts displayed per listing page.
   userName: "sudobuilddev", // Username to display in the author segment.
   userEmail: "", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
