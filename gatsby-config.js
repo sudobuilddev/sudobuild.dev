@@ -185,5 +185,13 @@ module.exports = {
       }
     },
     "gatsby-plugin-postcss",
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /icons/ // See below to configure properly
+        }
+      }
+    }
   ]
 };
